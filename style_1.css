@@ -1,11 +1,25 @@
 .head {
+    
+    
+    width: 100%;
+}
+.head #bars {
     margin-top: 4vh;
     margin-bottom: 4vh;
+    margin-left: 3%;
+}
+.head #search {
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+    margin-right: 5%;
+    float: right;
 }
 .head h1 {
     display: inline;
-    margin-left: 35%;
-    margin-right: 35%;
+    margin-left: 28%;
+    margin-right: 20%;
+    font-size: 90px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .container {
     position: relative;
@@ -75,4 +89,55 @@ button {
 }
 .links i {
     margin: 0 2vw;
+}
+.prev img {
+    float: left;
+    border-radius: 50%;
+    height: 10vh;
+    margin-top: 4vh;
+    margin-right:3vw;
+    margin-left: 2%;
+}
+.p_text {
+    margin-top: 3.5vh;
+    text-align: left;
+    margin-right: 10vw;
+}
+.p_text span, .n_text span {
+    color: gray;
+    font-size: 13px;
+}
+.next img {
+    float: right;
+    border-radius: 50%;
+    height: 10vh;
+    margin-left: 3vw;
+    margin-top: 1vh;
+    margin-right: 2%;
+}
+.next {
+    text-align: right;
+}
+.n_text {
+    margin-top: 1vh;
+    margin-bottom: 6vh;
+    margin-left: 10vw;
+}
+#about {
+    display: block;
+    border-left: 5px solid rgb(212, 134, 32);
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
+    margin: 5vh 2%;
+}
+
+#about img {
+    margin-top: 3vh;
+    border-radius: 50%;
+    height: 8vh;
+}
+#about i {
+    margin-bottom: 5vh;
+}
+#about p{
+    margin: 0 10vw 1.5vh 10vw;
 }
