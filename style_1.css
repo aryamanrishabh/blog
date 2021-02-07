@@ -1,6 +1,4 @@
 .head {
-    
-    
     width: 100%;
 }
 .head #bars {
@@ -140,4 +138,15 @@ button {
 }
 #about p{
     margin: 0 10vw 1.5vh 10vw;
+}
+.more h3 {
+    margin-left: 2%;
+}
+.more img {
+    width: 96%;
+    margin: 2vh 2%;
+}
+.more span {
+    margin-left: 2%;
+    font-size: 15px;
 }
