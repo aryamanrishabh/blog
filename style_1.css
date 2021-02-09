@@ -1,6 +1,9 @@
 .head {
     width: 100%;
 }
+body {
+    margin: 0;
+}
 .head #bars {
     margin-top: 4vh;
     margin-bottom: 4vh;
@@ -19,6 +22,48 @@
     font-size: 90px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+/* Dropdown Button 
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 30px;
+    border: none;
+  }
+  
+  /* The container <div> - needed to position the dropdown content 
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) 
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown 
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  /* Change color of dropdown links on hover 
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu on hover 
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown 
+  .dropdown:hover .dropbtn {background-color: #3e8e41;}*/
 .container {
     position: relative;
     text-align: center;
@@ -32,11 +77,12 @@
 .head_text {
     position: absolute;
     bottom: 5vh;
-    left: 15px;
+    left: 1vw;
     text-align: left;
     color: white;
     font-family: Roboto;
-    margin-left: 5vw;
+    margin-left: 2vw;
+    margin-right: 2vw;
 }
 h2.head_text {
     font-size: 50px;
@@ -53,18 +99,18 @@ span.head_text {
 .left, .right {
     width: 46%;
     float: left;
-    height: 25vh;
+    height: 23vh;
     margin: 2vh 2% 2% 2%;
 }
 .center  {
     width: 96%;
-    margin-top: 2%;
-    margin-left: 2%;
-    margin-right: 2%;
+    margin: 2% 2% 2% 2%;
+    height: 20vh;
 }
 .text {
     margin-left: 2%;
     font-size: 20px;
+    margin-right: 2%;
 }
 .buttons {
     display: block;
