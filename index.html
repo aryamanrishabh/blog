@@ -3,38 +3,41 @@
     <head>
         <title>A food & fashion blog</title>
         <script src="https://kit.fontawesome.com/eafd2ac13a.js" crossorigin="anonymous"></script>
-        <link href="style_1.css" type="text/css" rel="stylesheet">
+        <link media="screen and (max-device-width: 800px)" href="style_1.css" type="text/css" rel="stylesheet">
+        <link media="screen and (min-device-width: 801px)" href="style_2.css" type="text/css" rel="stylesheet">
     </head>
     <body>
         <div class="head">
             <div class="dropdown">
                 <i class="fas fa-bars" id="bars"></i>
-                <div class="dropdown-content">
+                <!--<div class="dropdown-content">
                     <a href="#">Link 1</a>
                     <a href="#">Link 2</a>
                     <a href="#">Link 3</a>
-                </div>
+                </div>-->
             </div>
             <h1>Traveler</h1><i class="fas fa-search" id="search"></i>
         </div>
-        <div class="body">
-            <div class="container">
-                <img src="images/shoe.jpg" id="home_img"/>
-                <h2 class="head_text">The Versatile Flat Shoe Style That’s Probably Missing From Your Wardrobe</h2>
-                <span class="head_text">Would you give up bacon or pizza?</span>
-                <!--<img class ="left" src="images/profile.png"/>
-                <span class="text">John Doe</span>
-                <span class="text">November 4, 2020</span>-->
-            </div>
+        <div class="container">
+            <img src="images/shoe.jpg" id="home_img"/>
+            <h2 class="head_text">The Versatile Flat Shoe Style That’s Probably Missing From Your Wardrobe</h2>
+            <span class="head_text">Would you give up bacon or pizza?</span>
+            <!--<img class ="left" src="images/profile.png"/>
+            <span class="text">John Doe</span>
+            <span class="text">November 4, 2020</span>-->
+        </div>
+        <div class="body" id="left">
             <div class="text">
                 <p>The model is talking about booking her latest gig, modeling WordPress underwear
                     in the brand latest Perfectly Fit campaign, which was shot by Lachian Bailey.
                     It was such a surreal moment cried she admitted.
                 </p>
             </div>
-            <img src="images/sample1.jpg" class="left"/>
-            <img src="images/sample2.jpg" class="right"/>
-            <img src="images/sample3.jpg" class="center"/>
+            <div class="images"> 
+                <img src="images/sample1.jpg" class="left"/>
+                <img src="images/sample2.jpg" class="right"/>
+                <img src="images/sample3.jpg" class="center"/>
+            </div>
             <div class="text">   
                 <p>So simple, yet so essential, the white shirt is the foundation of any wardrobe.
                     It’s also the most multi-functional item, taking you from work to play with just 
@@ -60,9 +63,11 @@
                     Lynn, Candice Huffine, and Robyn Lawley in June 2016.
                 </p>
             </div>
-            <img src="images/sample4.jpg" class="left"/>
-            <img src="images/sample5.jpg" class="right"/>
-            <img src="images/sample6.jpg" class="center"/>
+            <div class="images">    
+                <img src="images/sample4.jpg" class="left"/>
+                <img src="images/sample5.jpg" class="right"/>
+                <img src="images/sample6.jpg" class="center"/>
+            </div>
             <br><br>
             <div class="text">
                 <span>Article By Cindy Ann Peterson: Exclusive Interview with Designer Zang Toi Washington DC Fashion and Style Editor</span>
@@ -72,47 +77,47 @@
                 <button type="button">#Food</button>
                 <button type="button">#Fashion</button>
             </div>
-        </div>
-        <div class="links">
-            <i class="fab fa-facebook-f"></i>
-            <i class="fab fa-twitter"></i>
-            <i class="fab fa-pinterest"></i>
-            <i class="fab fa-whatsapp"></i>
-            <i class="fas fa-envelope"></i>
-            <i class="fab fa-reddit-alien"></i>
-            <i class="fab fa-telegram"></i>
-            <i class="fab fa-instagram"></i>
-        </div>
-        <div class="prev">
-            <hr>
-            <img src="images/travel1.jpg"/>
-            <div class="p_text">
-                <span>Previous Post</span>
-                <p>Know a travel pro's tips for staying and a b c d moisturized on long flights</p>
+            <div class="links">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-pinterest"></i>
+                <i class="fab fa-whatsapp"></i>
+                <i class="fas fa-envelope"></i>
+                <i class="fab fa-reddit-alien"></i>
+                <i class="fab fa-telegram"></i>
+                <i class="fab fa-instagram"></i>
             </div>
-        </div>
-        <div class="next">
-            <img src="images/travel1.jpg"/>
-            <div class="n_text">
-                <span>Next Post</span>
-                <p>Know a travel pro's tips for staying and a b c moisturized on long flights</p>
+            <div class="prev">
+                <hr>
+                <img src="images/travel1.jpg"/>
+                <div class="p_text">
+                    <span>Previous Post</span>
+                    <p>Know a travel pro's tips for staying and a b c d moisturized on long flights</p>
+                </div>
             </div>
-            <hr>
-        </div>
-        <div class="links" id="about">
-            <img src="images/profile.png"/>   
-            <h3>John Doe</h3>
-            <p>I'm John Doe, savba vapb vavo anbgv apvbp a vbpae ajvqpb n uw eeib  EOIR  fdsakfbv o i dvsjbaiub rg
-                asdjfo if npwoef pgn ogfo bqeprb ijasbdf uaewb ujfbwaerui bwjebgr uiqwebr jrfgbp iquweb ubqweib war
-            </p>
-            <i class="fab fa-facebook-f"></i>
-            <i class="fab fa-twitter"></i>
-            <i class="fab fa-pinterest"></i>
-            <i class="fab fa-whatsapp"></i>
-            <i class="fas fa-envelope"></i>
-            <i class="fab fa-reddit-alien"></i>
-            <i class="fab fa-telegram"></i>
-            <i class="fab fa-instagram"></i>
+            <div class="next">
+                <img src="images/travel1.jpg"/>
+                <div class="n_text">
+                    <span>Next Post</span>
+                    <p>Know a travel pro's tips for staying and a b c moisturized on long flights</p>
+                </div>
+                <hr>
+            </div>
+            <div class="links" id="about">
+                <img src="images/profile.png"/>   
+                <h3>John Doe</h3>
+                <p>I'm John Doe, savba vapb vavo anbgv apvbp a vbpae ajvqpb n uw eeib  EOIR  fdsakfbv o i dvsjbaiub rg
+                    asdjfo if npwoef pgn ogfo bqeprb ijasbdf uaewb ujfbwaerui bwjebgr uiqwebr jrfgbp iquweb ubqweib war
+                </p>
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-pinterest"></i>
+                <i class="fab fa-whatsapp"></i>
+                <i class="fas fa-envelope"></i>
+                <i class="fab fa-reddit-alien"></i>
+                <i class="fab fa-telegram"></i>
+                <i class="fab fa-instagram"></i>
+            </div>
         </div>
         <div class="more">
             <hr class="hr-text" data-content="More Stories">
