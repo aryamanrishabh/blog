@@ -63,8 +63,7 @@ span.head_text {
     margin-right: 8vw;
 }
 #tags {
-    display: block;
-    margin: 0 auto;
+    margin-right: 7vw;
     text-align: center;
 }
 #tags button {
@@ -86,6 +85,11 @@ span.head_text {
     border: 1px solid black;
     border-radius: 50%;
     margin-bottom: 3vh;
+    cursor:pointer;
+}
+#tags i:hover {
+    color:rgb(44, 118, 255);
+    transition-duration: 0.3s;
 }
 hr {
     visibility: hidden;
@@ -146,6 +150,10 @@ hr {
     margin-left: 1vw;
     cursor: pointer;
 }
+.p_text p:hover, .n_text p:hover {
+    color:rgb(212, 134, 32);
+    transition-duration: 0.3s;
+}
 .next img {
     float: right;
     margin-left: 20px;
@@ -181,4 +189,8 @@ hr {
 #about i {
     margin-right: 1vw;
     cursor: pointer;
+}
+#about i:hover {
+    color: rgb(212, 134, 32);
+    transition-duration: 0.3s;
 }
