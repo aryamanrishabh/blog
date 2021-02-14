@@ -43,7 +43,7 @@ span.head_text {
     display: block;
     margin: 10vh auto;
     text-align: left;
-    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow:0 4px 8px 0 rgba(104, 104, 104, 0.2), 0 6px 20px 0 rgba(153, 153, 153, 0.19);
     padding: 5vh 5vw;
 }
 #left .left {
@@ -71,77 +71,12 @@ span.head_text {
     margin-right: 2vw;
     font-size: 20px;
 }
-.nav {
-    display: block;
-    height: 100px;
-    width: 50vw;
-    margin-top: 30px;
-    padding-top: 30px;
-    border-top: 1px rgb(214, 214, 214) solid;
-    margin-bottom: 30px;
-    padding-bottom:50px;
-    border-bottom: 1px rgb(214, 214, 214) solid;
-    border-right: 1px white solid;
-    border-left: 1px white solid;
-    border-style: dashed;
-}
-.nav img {
-    border: 0;
-    border-radius: 50%;
-    height: 100px;
-}
-.prev {
-    display: block;
-    width: 50%;
-    float: left;
-}
-.next {
-    display: block;
-    width: 50%;
-    text-align: right;
-    float: right;
-    margin-top: 2.5vh;
-    margin-bottom: 2.5vh;;
-}
-.prev img {
-    float: left;
-    margin-right: 20px;
-    margin-bottom: 30px;
-}
-.p_text span, .n_text span {
-    color: #999999;
-    line-height: 2vh;
-    font-size: 13px;
-    cursor:pointer;
-}
-.p_text p {
-    line-height: 3vh;
-    margin-left: 6vw;
-    margin-right: 1vw;
-    cursor: pointer;
-    margin-bottom: 30px;
-}
-.n_text p {
-    line-height: 3vh;
-    margin-right: 6vw;
-    margin-left: 1vw;
-    cursor: pointer;
-}
-.p_text p:hover, .n_text p:hover {
-    color:rgb(212, 134, 32);
-    transition-duration: 0.3s;
-}
-.next img {
-    float: right;
-    margin-left: 20px;
-    margin-bottom: 30px;
-}
 h2 {
     margin-left: 20vw;
 }
 .recent {
     display: block;
-    width:50px;
+    width: 50px;
     margin-left: 20vw;
     float: left;
 }
@@ -159,5 +94,36 @@ h2 {
     font-size: 12px;
 }
 .text h1 {
-    line-height: 5vh;
+    line-height: 6vh;
+}
+.nav {
+    display: none;
+}
+#socials {
+    display: block;
+    width: 100%;
+    background-color: #2573DA;
+    overflow: hidden;
+    margin-top: 50vh;
+    margin-bottom: 10vh;
+    height: 10vh;
+}
+#social_links {
+    display: block;
+    margin: 3.5vh 10vw 3.5vh 16vw;
+    text-align: center;
+    color: white;
+}
+#socials i {
+    margin-right: 0.7vw;
+    font-size: 20px;
+    cursor: pointer;
+}
+#socials span {
+    margin-right: 8vw;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+#twitter {
+    margin-right: 0vw;
 }
