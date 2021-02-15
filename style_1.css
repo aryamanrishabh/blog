@@ -196,3 +196,6 @@ button {
     margin-left: 2%;
     font-size: 15px;
 }
+#insta, #foot {
+    display: none;
+}
