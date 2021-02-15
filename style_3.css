@@ -105,7 +105,6 @@ h2 {
     background-color: #2573DA;
     overflow: hidden;
     margin-top: 50vh;
-    margin-bottom: 10vh;
     height: 10vh;
 }
 #social_links {
@@ -126,4 +125,41 @@ h2 {
 }
 #twitter {
     margin-right: 0vw;
+}
+#about {
+    display: none;
+}
+#insta {
+    display: block;
+}
+#insta img {
+    width: 20%;
+    float: left;
+}
+footer {
+    clear: both;
+    background: { #696969 !important;}
+    margin: 0; padding: 0;
+    font: normal .95em/1.5em 'Tahoma', Trebuchet MS, Sans-serif;
+    width:100%;
+
+}
+#about_me {
+    width: 40%;
+    float: left;
+    margin-top: 8vh;
+    margin-bottom: 8vh;
+}
+#about_me img {
+    float: left;
+    width: 140px;
+    height: 141px;
+    margin-right: 30px;
+}
+#about_me span {
+    font-size: 25px;
+}
+#about_me p {
+    font-family: sans-serif;
+    line-height: 25px;
 }
