@@ -163,3 +163,76 @@ footer {
     font-family: sans-serif;
     line-height: 25px;
 }
+
+/*fashion.html*/
+#head_fashion {
+    display: block;
+    width: 100%;
+    height: 200px;
+}
+#left_fashion {
+    width: 25%;
+    float:left;
+    text-align: right;
+    margin-top: 200px;
+    margin-bottom: 130px;
+}
+#left_fashion span {
+    font-size: 13px;
+    padding: 0 10px;
+    cursor: pointer;
+}
+#center_fashion {
+    width: 50%;
+    font-size: 70px;
+    float:left;
+    text-align: center;
+}
+#center_fashion h1 {
+    font-family: sans-serif;
+    cursor: pointer;
+}
+#right_fashion {
+    width: 25%;
+    float: left;
+    text-align: left;
+    margin-top: 200px;
+    margin-bottom: 130px;
+}
+#right_fashion i {
+    padding: 0 10px;
+    cursor: pointer;
+}
+#free {
+    text-align: left;
+    margin-left: 17%;
+}
+#profile_pic {
+    float: left;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.article {
+    width: 66%;
+    display: block;
+    margin: 8vh auto;
+    text-align: left;
+    box-shadow:0 4px 8px 0 rgba(104, 104, 104, 0.2), 0 6px 20px 0 rgba(153, 153, 153, 0.19);
+    padding: 2vh 0;
+}
+.article_text {
+    display: block;
+    width: 80%;
+    margin: 8vh auto;
+    text-align: left;
+}
+.article pre {
+    position: relative;
+    top: 1vh;
+    margin-bottom: 5vh;
+}
+#article_img {
+    width: 100%;
+    margin: 4vh 0;
+}
