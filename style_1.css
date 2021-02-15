@@ -199,3 +199,75 @@ button {
 #insta, #foot {
     display: none;
 }
+
+/*Fashion.html*/
+#left_fashion {
+    width: 25%;
+    float:left;
+    text-align: right;
+    margin-top: 5.5vh;
+    margin-bottom: 3vh;
+}
+#left_fashion span {
+    font-size: 1vh;
+    padding: 0 1vw;
+    cursor: pointer;
+}
+#center_fashion {
+    width: 50%;
+    font-size: 50px;
+    float:left;
+    text-align: center;
+}
+#center_fashion h1 {
+    font-family: sans-serif;
+    cursor: pointer;
+}
+#right_fashion {
+    width: 25%;
+    float: left;
+    text-align: left;
+    margin-top: 5.5vh;
+    margin-bottom: 3vh;
+}
+#right_fashion i {
+    padding: 0 1vw;
+    cursor: pointer;
+}
+#free {
+    text-align: left;
+    margin-left: 10%;
+    font-size: 1.2vh;
+}
+#profile_pic {
+    float: left;
+    height: 3vh;
+    border-radius: 50%;
+    margin-right: 2vw;
+}
+.article {
+    width: 80%;
+    display: block;
+    margin: 3vh auto;
+    text-align: left;
+    box-shadow:0 4px 8px 0 rgba(104, 104, 104, 0.2), 0 6px 20px 0 rgba(153, 153, 153, 0.19);
+    padding: 2vh 0;
+}
+.article_text {
+    display: block;
+    width: 80%;
+    margin: 3vh auto;
+    text-align: left;
+}
+#article_img {
+    width: 100%;
+    margin: 2vh 0;
+} 
+.article pre {
+    font-size: 1.2vh;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.article h1 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: normal;
+}
