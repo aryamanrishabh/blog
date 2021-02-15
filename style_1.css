@@ -205,7 +205,7 @@ button {
     width: 25%;
     float:left;
     text-align: right;
-    margin-top: 5.5vh;
+    margin-top: 5.4vh;
     margin-bottom: 3vh;
 }
 #left_fashion span {
@@ -216,7 +216,7 @@ button {
 #center_fashion {
     width: 50%;
     font-size: 50px;
-    float:left;
+    float: left;
     text-align: center;
 }
 #center_fashion h1 {
@@ -227,7 +227,7 @@ button {
     width: 25%;
     float: left;
     text-align: left;
-    margin-top: 5.5vh;
+    margin-top: 5.4vh;
     margin-bottom: 3vh;
 }
 #right_fashion i {
