@@ -205,8 +205,8 @@ button {
     width: 25%;
     float:left;
     text-align: right;
-    margin-top: 5.4vh;
-    margin-bottom: 3vh;
+    margin-top: 4.5vh;/*5.4*/
+    margin-bottom: 2vh;
 }
 #left_fashion span {
     font-size: 1vh;
@@ -227,8 +227,8 @@ button {
     width: 25%;
     float: left;
     text-align: left;
-    margin-top: 5.4vh;
-    margin-bottom: 3vh;
+    margin-top: 4.5vh;/*5.4vh*/
+    margin-bottom: 2vh;
 }
 #right_fashion i {
     padding: 0 1vw;
@@ -236,9 +236,10 @@ button {
 }
 #free {
     text-align: left;
-    margin-left: 10%;
+    margin
     font-size: 1.2vh;
 }
+
 #profile_pic {
     float: left;
     height: 3vh;
@@ -265,6 +266,10 @@ button {
 } 
 .article pre {
     font-size: 1.2vh;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#bot {
+    font-size: 1vh;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .article h1 {

@@ -234,3 +234,101 @@ h2 {
     cursor: pointer;
     font-size: 2vh;
 }
+
+/*Food.html*/
+#food_head {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 450px;
+}
+#food_head img {
+    width: 100%;
+    height: 385px;
+    object-fit: cover;
+}
+#first_txt {
+    display: inline-block;
+    position: absolute;
+    bottom: 45px;
+    left: 17%;
+    box-sizing: border-box;
+    border: 1px solid white;
+    background-color: white;
+    line-height: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#first_txt h3 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: normal;
+}
+#second_txt {
+    display: inline-block;
+    position: absolute;
+    bottom: 45px;
+    left: 20%;
+    border: 1px solid black;
+    background-color: #2F2E2E;
+    line-height: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 30px;
+}
+#second_txt h3 {
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-weight: normal;
+}
+.article_food {
+    display: block;
+    width: 58.5%;
+    margin: 50px auto;
+    border: 1px solid black;
+    position: relative;
+}
+.article_food img {
+    width: 100%;
+}
+#article_food_head {
+    line-height: 0;
+    display: inline-block;
+    position: absolute;
+    top:-20px;
+    left: -20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #2F2E2E;
+}
+#article_food_head pre {
+    font-size: 20px;
+    font-family: 'Playfair Display', serif;
+    font-weight: normal;
+    color:white;
+}
+.food_text {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+}
+.food_text img {
+    width: 30px;
+    border-radius: 50%;
+    margin-top: 25px;
+}
+.food_text span {
+    font: 12px sans-serif;
+    color: #2F2E2E;
+    margin-left: 10px;
+    position: relative;
+    top: -10px;
+}
+#food_text_h1 {
+    text-align: left;
+    font-size: 28px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 500;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #bdbdbd;
+    margin-bottom: 50px;
+}
