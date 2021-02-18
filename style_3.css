@@ -335,7 +335,17 @@ h2 {
 .food_text h1 {
     cursor: pointer;
 }
-
+a:link {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    text-decoration: none;
+    color: rgb(83, 1, 83);
+}
+a:visited {
+    color: black;
+}
 /*Individual Articles*/
 
 .individual_article {
