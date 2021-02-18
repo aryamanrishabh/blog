@@ -276,3 +276,106 @@ button {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: normal;
 }
+
+/*Food.html*/
+#food_head {
+    display: block;
+    position: relative;
+    width: 100%;
+}
+#food_head img {
+    width: 100%;
+    height: 385px;
+    object-fit: fill;
+}
+#first_txt {
+    display: inline-block;
+    position: absolute;
+    bottom: 0px;
+    left: 17%;
+    box-sizing: border-box;
+    background-color: white;
+    line-height: normal;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+#first_txt h3 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+}
+#second_txt {
+    display: inline-block;
+    position: absolute;
+    bottom: 0px;
+    left: 20%;
+    background-color: #2F2E2E;
+    line-height: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 80px;
+}
+#second_txt h3 {
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-weight: normal;
+}
+.article_food {
+    display: block;
+    width: 70%;
+    margin: 50px auto;
+    border: 1px solid #bdbdbd;
+    position: relative;
+}
+.article_food img {
+    width: 100%;
+    cursor: pointer;
+}
+#article_food_head {
+    line-height: 0;
+    display: inline-block;
+    position: absolute;
+    top:-20px;
+    left: -20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #2F2E2E;
+}
+#article_food_head pre {
+    font-size: 20px;
+    font-family: 'Playfair Display', serif;
+    font-weight: normal;
+    color:white;
+}
+.food_text {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+}
+.food_text img {
+    width: 30px;
+    border-radius: 50%;
+    margin-top: 25px;
+    cursor:default;
+}
+.food_text span {
+    font: 12px sans-serif;
+    color: #2F2E2E;
+    margin-left: 10px;
+    position: relative;
+    top: -10px;
+}
+#food_text_h1 {
+    text-align: left;
+    font-size: 30px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 500;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #bdbdbd;
+    margin-bottom: 50px;
+}
+.food_text h1 {
+    cursor: pointer;
+}
