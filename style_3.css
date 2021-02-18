@@ -284,11 +284,12 @@ h2 {
     display: block;
     width: 58.5%;
     margin: 50px auto;
-    border: 1px solid black;
+    border: 1px solid #bdbdbd;
     position: relative;
 }
 .article_food img {
     width: 100%;
+    cursor: pointer;
 }
 #article_food_head {
     line-height: 0;
@@ -315,6 +316,7 @@ h2 {
     width: 30px;
     border-radius: 50%;
     margin-top: 25px;
+    cursor:default;
 }
 .food_text span {
     font: 12px sans-serif;
@@ -331,4 +333,7 @@ h2 {
     padding-bottom: 30px;
     border-bottom: 1px solid #bdbdbd;
     margin-bottom: 50px;
+}
+.food_text h1 {
+    cursor: pointer;
 }
