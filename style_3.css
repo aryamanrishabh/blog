@@ -441,3 +441,69 @@ p.fancy {
     font-size: 53px;
     display: inline;
 }
+
+/*Travel.html*/
+.travel_nav {
+    display: block;
+    width: 100%;
+    background-color: #bdbdbd;
+    padding-bottom: 20px;
+}
+.ul_left {
+    text-align: left;
+    position: relative;
+    top: 20px;
+}
+#li_left {
+    margin-left: 19%;
+    font-family: 'Open Sans', sans-serif;
+}
+#li_left li {
+    padding: 0 10px;
+    margin-right: 10px;
+}
+.ul_right {
+    text-align: right;
+}
+#li_right {
+    margin-right: 19%;
+}
+#li_right li {
+    padding: 0 5px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+.travel_nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.travel_nav ul li {
+    display: inline;
+}
+#travel_main{
+    position: relative;
+}
+#travel_main_img {
+    object-fit:cover;
+}
+#head_middle {
+    width: 35%;
+    display: block;
+    position: absolute;
+    margin: 0 auto;
+    text-align: center;
+    bottom: 55%;
+    left: 40%;
+    color:white;
+    line-height: 10px;
+}
+#head_middle h1 {
+    font-size: 70px;
+    font-family: 'Open Sans', sans-serif;
+    word-spacing: 10px;
+}
+#head_middle span {
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+}
