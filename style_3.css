@@ -357,7 +357,7 @@ a:visited {
 .article_outer {
     width: 60%;
     background-color: white;
-    margin: 10vh auto;
+    margin: 100px auto;
     padding: 50px;
 }
 #span_top {
@@ -368,7 +368,7 @@ a:visited {
 .article_inner {
     border: 1px solid #bdbdbd;
     margin-top: 4vh;
-    padding: 5vh 10vw 5vh 10vw;
+    padding: 50px 75px 50px 75px;
 }
 .article_inner i {
     float: right;
