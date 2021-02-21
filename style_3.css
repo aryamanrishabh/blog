@@ -432,7 +432,7 @@ p.fancy {
     display: inline;
 }
 
-/*Travel.html*/
+/*index.html*/
 .travel_nav {
     display: block;
     width: 100%;
@@ -476,6 +476,7 @@ p.fancy {
 }
 #travel_main_img {
     object-fit:cover;
+    width:100%;
 }
 #head_middle {
     width: 35%;
@@ -483,8 +484,8 @@ p.fancy {
     position: absolute;
     margin: 0 auto;
     text-align: center;
-    bottom: 55%;
-    left: 40%;
+    bottom: 50%;
+    left: 35%;
     color:white;
     line-height: 10px;
 }
