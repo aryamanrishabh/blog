@@ -105,7 +105,7 @@ h2 {
     width: 100%;
     background-color: #2573DA;
     overflow: hidden;
-    margin-top: 50vh;
+    margin-top: 20vh;
     height: 10vh;
 }
 #social_links {
@@ -338,17 +338,7 @@ h2 {
 .food_text h1 {
     cursor: pointer;
 }
-a:link {
-    text-decoration: none;
-    color: black;
-}
-a:hover {
-    text-decoration: none;
-    color: rgb(83, 1, 83);
-}
-a:visited {
-    color: black;
-}
+
 /*Individual Articles*/
 
 .back_color {
@@ -506,4 +496,17 @@ p.fancy {
 #head_middle span {
     font-size: 18px;
     font-family: 'Open Sans', sans-serif;
+}
+
+/*Anchor tags*/
+a:link {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    color: rgb(83, 1, 83);
+}
+a:visited {
+    text-decoration: none;
+    color: black;
 }
