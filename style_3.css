@@ -247,7 +247,6 @@ h2 {
     width: 100%;
     height: 385px;
     object-fit: cover;
-
 }
 #first_txt {
     display: inline-block;
@@ -311,13 +310,15 @@ h2 {
 .food_text {
     display: block;
     width: 90%;
-    margin: 0 auto;
+    margin: 0 auto 20px auto;
+    border-bottom: 1px solid #bdbdbd;
+    padding-bottom: 10px;
 }
 .food_text img {
     width: 30px;
     border-radius: 50%;
     margin-top: 25px;
-    cursor:default;
+    cursor: default;
 }
 .food_text span {
     font: 12px sans-serif;
@@ -331,12 +332,23 @@ h2 {
     font-size: 28px;
     font-family: 'Yanone Kaffeesatz', sans-serif;
     font-weight: 500;
-    padding-bottom: 30px;
-    border-bottom: 1px solid #bdbdbd;
-    margin-bottom: 50px;
 }
 .food_text h1 {
     cursor: pointer;
+}
+span.abstract {
+    text-align: left;
+    font-size: 16px;
+    position: relative;
+    bottom: 50px;
+    padding-bottom: 20px;
+    /*border-bottom: 1px solid #bdbdbd;*/
+    margin-left: 0px;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+.not_pc {
+    display: none;
 }
 
 /*Individual Articles*/

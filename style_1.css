@@ -353,6 +353,7 @@ button {
     display: block;
     width: 90%;
     margin: 0 auto;
+    padding-bottom: 1vh;
 }
 .food_text img {
     width: 30px;
@@ -372,17 +373,27 @@ button {
     font-size: 30px;
     font-family: 'Yanone Kaffeesatz', sans-serif;
     font-weight: 500;
-    padding-bottom: 30px;
-    border-bottom: 1px solid #bdbdbd;
-    margin-bottom: 50px;
 }
 .food_text h1 {
     cursor: pointer;
 }
+span.abstract {
+    text-align: left;
+    font-size: 13px;
+    position: relative;
+    bottom: 50px;
+    padding-bottom: 20px;
+    margin-left: 0px;
+    line-height: 0.5;
+    font-family: sans-serif;
+    
+}
 .overlay {
     display: none;
 }
-
+#not_mobile {
+    display: none;
+}
 /*Individual articles*/
 .back_color {
     background-color: #ebebeb;          /*background color specific*/
@@ -454,4 +465,17 @@ p.fancy {
 }
 img.article_profile {
     margin-top: 1vh;
+}
+
+/*Anchor Tags*/
+a:link {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    color: rgb(83, 1, 83);
+}
+a:visited {
+    text-decoration: none;
+    color: black;
 }
