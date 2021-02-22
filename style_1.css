@@ -22,6 +22,43 @@ body {
     font-size: 90px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+#socials {
+    display: block;
+    width: 100%;
+    background-color: #2573DA;
+    overflow: hidden;
+    margin-top: 0vh;
+    height: 10vh;
+}
+#social_links {
+    display: block;
+    margin: 3.5vh 10vw 3.5vh 16vw;
+    text-align: center;
+    color: white;
+}
+#socials i {
+    margin-right: 0.7vw;
+    font-size: 25px;
+    cursor: pointer;
+}
+#socials span {
+    margin-right: 8vw;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+#twitter {
+    margin-right: 0vw;
+}
+#about {
+    display: none;
+}
+#insta {
+    display: block;
+}
+#insta img {
+    width: 20%;
+    float: left;
+}
 
 /* Dropdown Button 
 .dropbtn {
@@ -196,9 +233,6 @@ button {
     margin-left: 2%;
     font-size: 15px;
 }
-#insta, #foot {
-    display: none;
-}
 
 /*Fashion.html*/
 #left_fashion {
@@ -355,6 +389,11 @@ button {
     margin: 0 auto;
     padding-bottom: 1vh;
 }
+.border {
+    border-bottom: 1px solid #bdbdbd;
+    padding-bottom: 1vh;
+    margin-bottom: 2vh;
+}
 .food_text img {
     width: 30px;
     border-radius: 50%;
@@ -399,18 +438,18 @@ span.abstract {
     background-color: #ebebeb;          /*background color specific*/
 }
 .article_outer {
-    width: 80%;
+    width: 100%;
     background-color: white;
-    margin: 7vh auto;
+    margin-bottom: 4vh;
     padding: 3vh 3vw 2vh 3vw;
 }
 #span_top {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 14px;  
+    margin-left: 5vw;
 }
 .article_inner {
-    border: 1px solid #bdbdbd;
-    margin-top: 40px;
+    margin-top: 1vh;
     padding: 2.5vh 5vw;
 }
 .article_inner i {

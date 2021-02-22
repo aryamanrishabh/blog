@@ -311,8 +311,12 @@ h2 {
     display: block;
     width: 90%;
     margin: 0 auto 20px auto;
-    border-bottom: 1px solid #bdbdbd;
     padding-bottom: 10px;
+}
+.border {
+    border-bottom: 1px solid #bdbdbd;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
 }
 .food_text img {
     width: 30px;
