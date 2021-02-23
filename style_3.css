@@ -527,3 +527,34 @@ a:visited {
     text-decoration: none;
     color: black;
 }
+
+/*about.html*/
+.about_text {
+    width: 30%;
+    float: left;
+    margin-left: 20%;
+    margin-top: 50px;
+}
+.about_text h1 {
+    font-size: 36px;
+    font-family: serif;
+    font-weight: normal;
+}
+.about_text p {
+    margin-top: 50px;
+    font-family: sans-serif;
+    color: #696969;
+    font-size: 15px;
+    line-height: 1.8;
+}
+.about_img {
+    width: 30%;
+    float:left;
+    margin-top: 150px;
+    margin-left: 50px;
+    margin-bottom: 100px;
+}
+.about_img img {
+    width: 80%;
+    object-fit:fill;
+}
