@@ -556,5 +556,5 @@ a:visited {
 }
 .about_img img {
     width: 80%;
-    object-fit:fill;
+    object-fit:cover;
 }

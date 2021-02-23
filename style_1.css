@@ -27,12 +27,12 @@ body {
     width: 100%;
     background-color: #2573DA;
     overflow: hidden;
-    margin-top: 0vh;
-    height: 10vh;
+    margin-top: 5vh;
+    height: 5vh;
 }
 #social_links {
     display: block;
-    margin: 3.5vh 10vw 3.5vh 16vw;
+    margin: 1vh 10vw 1vh 16vw;
     text-align: center;
     color: white;
     font-size: 25px;
@@ -569,6 +569,32 @@ img.article_profile {
 #head_middle span {
     font-size: 18px;
     font-family: 'Open Sans', sans-serif;
+}
+/*about.html*/
+.about_text {
+    width: 30%;
+    float: left;
+    margin-left: 10%;
+    margin-top: 5vh;
+}
+.about_text h1 {
+    font-size: 36px;
+    font-family: serif;
+    font-weight: normal;
+}
+.about_text p {
+    margin-top: 4vh;
+    font-family: sans-serif;
+    color: #696969;
+    font-size: 18px;
+    line-height: 1.7;
+}
+.about_img {
+    width: 30%;
+    float:left;
+    margin-top: 14vh;
+    margin-left: 4vw;
+    margin-bottom: 10vh;
 }
 
 /*Anchor Tags*/
