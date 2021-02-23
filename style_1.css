@@ -609,3 +609,7 @@ a:visited {
     text-decoration: none;
     color: black;
 }
+
+#back_no_color {
+    background-color: white;
+}
