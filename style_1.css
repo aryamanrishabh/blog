@@ -431,7 +431,7 @@ span.abstract {
 .overlay {
     display: none;
 }
-#not_mobile {
+.not_mobile {
     display: none;
 }
 /*Individual articles*/
@@ -572,10 +572,8 @@ img.article_profile {
 }
 /*about.html*/
 .about_text {
-    width: 30%;
-    float: left;
-    margin-left: 10%;
-    margin-top: 5vh;
+    width: 60%;
+    margin: 3vh auto 10vh auto;
 }
 .about_text h1 {
     font-size: 36px;
@@ -583,18 +581,16 @@ img.article_profile {
     font-weight: normal;
 }
 .about_text p {
-    margin-top: 4vh;
+    margin-top: 2vh;
     font-family: sans-serif;
     color: #696969;
     font-size: 18px;
     line-height: 1.7;
 }
 .about_img {
-    width: 30%;
-    float:left;
-    margin-top: 14vh;
-    margin-left: 4vw;
-    margin-bottom: 10vh;
+    width: 80%;
+    margin: 5vh auto;
+    text-align: center;
 }
 
 /*Anchor Tags*/
