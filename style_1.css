@@ -271,8 +271,8 @@ button {
 }
 #free {
     text-align: left;
-    margin
     font-size: 1.2vh;
+    visibility: hidden;
 }
 #profile_pic {
     float: left;
@@ -283,7 +283,7 @@ button {
 .article {
     width: 80%;
     display: block;
-    margin: 3vh auto;
+    margin: 2vh auto;
     text-align: left;
     box-shadow:0 4px 8px 0 rgba(104, 104, 104, 0.2), 0 6px 20px 0 rgba(153, 153, 153, 0.19);
     padding: 2vh 0;

@@ -195,6 +195,7 @@ h2 {
 #free {
     text-align: left;
     margin-left: 17%;
+    
 }
 #profile_pic {
     float: left;
@@ -526,6 +527,9 @@ a:hover {
 a:visited {
     text-decoration: none;
     color: black;
+}
+.profile_pic {
+    cursor: pointer;
 }
 
 /*about.html*/
