@@ -195,7 +195,7 @@ h2 {
 #free {
     text-align: left;
     margin-left: 17%;
-    
+
 }
 #profile_pic {
     float: left;
@@ -344,13 +344,12 @@ h2 {
 span.abstract {
     text-align: left;
     font-size: 16px;
-    position: relative;
-    bottom: 50px;
     padding-bottom: 20px;
-    /*border-bottom: 1px solid #bdbdbd;*/
-    margin-left: 0px;
+    top: 0px;
+    margin-left: 0;
     font-family: sans-serif;
     cursor: pointer;
+    color: #757575;
 }
 .not_pc {
     display: none;
