@@ -4,12 +4,12 @@ body {
 .text {
     line-height: 4vh;
 }
-.container {
+.container-a {
     position: relative;
     text-align: center;
     margin-bottom: 3vh;
 }
-.container img {
+.container-a img {
     width: 100%;
     margin-left: 0;
     margin-right: 0;
@@ -128,8 +128,10 @@ hr {
 }
 .prev img {
     float: left;
+    height: 50px;
     margin-right: 20px;
     margin-bottom: 30px;
+    border-radius: 50%;
 }
 .p_text span, .n_text span {
     color: #999999;
@@ -156,8 +158,10 @@ hr {
 }
 .next img {
     float: right;
+    height: 50px;
     margin-left: 20px;
     margin-bottom: 30px;
+    border-radius: 50%;
 }
 #about {
     display: block;
