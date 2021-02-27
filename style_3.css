@@ -163,13 +163,14 @@ h2 {
     width: 25%;
     float:left;
     text-align: right;
-    margin-top: 200px;
+    margin-top: 210px;
     margin-bottom: 130px;
 }
 #left_fashion span {
-    font-size: 13px;
+    font-size: 14px;
     padding: 0 10px;
     cursor: pointer;
+    font-family: 'Lato', sans-serif;
 }
 #center_fashion {
     width: 50%;
@@ -178,24 +179,26 @@ h2 {
     text-align: center;
 }
 #center_fashion h1 {
-    font-family: sans-serif;
+    font-family: 'Poiret One', cursive;
+    font-weight: 1000;
+    letter-spacing: 10px;
     cursor: pointer;
 }
 #right_fashion {
     width: 25%;
     float: left;
     text-align: left;
-    margin-top: 200px;
+    margin-top: 210px;
     margin-bottom: 130px;
 }
 #right_fashion i {
     padding: 0 10px;
     cursor: pointer;
 }
-#free {
+#all_posts {
     text-align: left;
     margin-left: 17%;
-
+    cursor: pointer;
 }
 #profile_pic {
     float: left;

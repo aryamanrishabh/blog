@@ -198,8 +198,8 @@ button {
     width: 25%;
     float:left;
     text-align: right;
-    margin-top: 4.5vh;/*5.4*/
-    margin-bottom: 2vh;
+    margin-top: 5.2vh;/*5.4*/
+    margin-bottom: 0vh;
 }
 #left_fashion span {
     font-size: 1vh;
@@ -213,21 +213,23 @@ button {
     text-align: center;
 }
 #center_fashion h1 {
-    font-family: sans-serif;
+    font-family: 'Poiret One', cursive;
+    font-weight: 800;
+    letter-spacing: 7px;
     cursor: pointer;
 }
 #right_fashion {
     width: 25%;
     float: left;
     text-align: left;
-    margin-top: 4.5vh;/*5.4vh*/
+    margin-top: 5.2vh;/*5.4vh*/
     margin-bottom: 2vh;
 }
 #right_fashion i {
     padding: 0 1vw;
     cursor: pointer;
 }
-#free {
+#all_posts {
     text-align: left;
     font-size: 1.2vh;
     visibility: hidden;
@@ -241,7 +243,7 @@ button {
 .article {
     width: 80%;
     display: block;
-    margin: 2vh auto;
+    margin: 0vh auto 4vh auto;
     text-align: left;
     box-shadow:0 4px 8px 0 rgba(104, 104, 104, 0.2), 0 6px 20px 0 rgba(153, 153, 153, 0.19);
     padding: 2vh 0;
