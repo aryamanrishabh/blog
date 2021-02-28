@@ -200,8 +200,8 @@ button {
     width: 25%;
     float: left;
     text-align: right;
-    margin-top: 4.5vh; /*5.4*/
-    margin-bottom: 2vh;
+    margin-top: 5.2vh; /*5.4*/
+    margin-bottom: 0vh;
 }
 #left_fashion span {
     font-size: 1vh;
@@ -222,7 +222,7 @@ button {
     width: 25%;
     float: left;
     text-align: left;
-    margin-top: 4.5vh; /*5.4vh*/
+    margin-top: 5.2vh; /*5.4vh*/
     margin-bottom: 2vh;
 }
 #right_fashion i {
