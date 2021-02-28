@@ -19,11 +19,11 @@ hr {
 }
 .head_text {
     position: absolute;
-    bottom:23vh;
+    bottom: 23vh;
     left: 7vw;
     text-align: left;
     color: white;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Times New Roman", Times, serif;
     margin-left: 5vw;
     margin-right: 40vw;
     line-height: 7vh;
@@ -43,7 +43,8 @@ span.head_text {
     display: block;
     margin: 10vh auto;
     text-align: left;
-    box-shadow:0 4px 8px 0 rgba(104, 104, 104, 0.2), 0 6px 20px 0 rgba(153, 153, 153, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(104, 104, 104, 0.2),
+        0 6px 20px 0 rgba(153, 153, 153, 0.19);
     padding: 5vh 5vw;
 }
 #left .left {
@@ -83,10 +84,11 @@ h2 {
 }
 .text {
     font-size: 20px;
-    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+        Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 .recent .text {
-    float:none;
+    float: none;
     text-align: left;
     font-size: 15px;
     width: 250px;
@@ -103,7 +105,7 @@ h2 {
 #socials {
     display: block;
     width: 100%;
-    background-color: #2573DA;
+    background-color: #2573da;
     overflow: hidden;
     margin-top: 20vh;
     height: 10vh;
@@ -131,11 +133,10 @@ h2 {
     display: none;
 }
 #insta {
-    display: block;
+    font-size: 0;
 }
 #insta img {
     width: 20%;
-    float: left;
 }
 
 #about_me {
@@ -161,7 +162,7 @@ h2 {
 /*fashion.html*/
 #left_fashion {
     width: 25%;
-    float:left;
+    float: left;
     text-align: right;
     margin-top: 210px;
     margin-bottom: 130px;
@@ -175,7 +176,7 @@ h2 {
 #center_fashion {
     width: 50%;
     font-size: 70px;
-    float:left;
+    float: left;
     text-align: center;
 }
 #center_fashion h1 {
@@ -211,7 +212,8 @@ h2 {
     display: block;
     margin: 8vh auto;
     text-align: left;
-    box-shadow:0 4px 8px 0 rgba(104, 104, 104, 0.2), 0 6px 20px 0 rgba(153, 153, 153, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(104, 104, 104, 0.2),
+        0 6px 20px 0 rgba(153, 153, 153, 0.19);
     padding: 2vh 0;
 }
 .article_text {
@@ -224,14 +226,16 @@ h2 {
     position: relative;
     top: 1vh;
     margin-bottom: 5vh;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
 }
 #article_img {
     width: 100%;
     margin: 4vh 0;
 }
 .article h1 {
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
     font-weight: normal;
 }
 .article .links i {
@@ -264,7 +268,8 @@ h2 {
     padding-right: 20px;
 }
 #first_txt h3 {
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
     font-weight: normal;
 }
 #second_txt {
@@ -272,7 +277,7 @@ h2 {
     position: absolute;
     bottom: 45px;
     left: 20%;
-    background-color: #2F2E2E;
+    background-color: #2f2e2e;
     line-height: 0;
     padding-left: 20px;
     padding-right: 20px;
@@ -280,7 +285,7 @@ h2 {
 }
 #second_txt h3 {
     color: white;
-    font-family: 'Playfair Display', serif;
+    font-family: "Playfair Display", serif;
     font-weight: normal;
 }
 .article_food {
@@ -299,17 +304,17 @@ h2 {
     line-height: 0;
     display: inline-block;
     position: absolute;
-    top:-20px;
+    top: -20px;
     left: -20px;
     padding-left: 30px;
     padding-right: 30px;
-    background-color: #2F2E2E;
+    background-color: #2f2e2e;
 }
 #article_food_head pre {
     font-size: 20px;
-    font-family: 'Playfair Display', serif;
+    font-family: "Playfair Display", serif;
     font-weight: normal;
-    color:white;
+    color: white;
 }
 .food_text {
     display: block;
@@ -330,7 +335,7 @@ h2 {
 }
 .food_text span {
     font: 12px sans-serif;
-    color: #2F2E2E;
+    color: #2f2e2e;
     margin-left: 10px;
     position: relative;
     top: -10px;
@@ -338,7 +343,7 @@ h2 {
 #food_text_h1 {
     text-align: left;
     font-size: 28px;
-    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-family: "Yanone Kaffeesatz", sans-serif;
     font-weight: 500;
 }
 .food_text h1 {
@@ -361,7 +366,7 @@ span.abstract {
 /*Individual Articles*/
 
 .back_color {
-    background-color: #ebebeb;          /*background color specific*/
+    background-color: #ebebeb; /*background color specific*/
 }
 .article_outer {
     width: 60%;
@@ -370,8 +375,9 @@ span.abstract {
     padding: 50px;
 }
 #span_top {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 12px;    
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+        Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 12px;
     cursor: pointer;
 }
 .article_inner {
@@ -389,7 +395,7 @@ span.abstract {
     top: -5px;
 }
 .article_inner h3 {
-    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-family: "Yanone Kaffeesatz", sans-serif;
     font-size: 28px;
     font-weight: 550;
     margin-top: 50px;
@@ -400,15 +406,15 @@ span.abstract {
 }
 #span_bot {
     font-size: 18px;
-    font-family: 'Noto Sans', sans-serif;
+    font-family: "Noto Sans", sans-serif;
 }
 .article_inner p {
     font-size: 18px;
-    font-family: 'Noto Sans', sans-serif;
+    font-family: "Noto Sans", sans-serif;
 }
 p.fancy {
     font-size: 24px;
-    font-family: 'Noto Sans', sans-serif;
+    font-family: "Noto Sans", sans-serif;
     font-style: italic;
     border-left: 2px solid rgb(83, 1, 83);
     padding: 15px;
@@ -441,12 +447,12 @@ p.fancy {
 }
 #the {
     font-size: 12px;
-    font-family: 'Noto Sans', sans-serif;
+    font-family: "Noto Sans", sans-serif;
     position: relative;
     bottom: 30px;
 }
 .food_feed {
-    font-family: 'Playfair Display', serif;
+    font-family: "Playfair Display", serif;
     font-size: 53px;
     display: inline;
 }
@@ -465,7 +471,7 @@ p.fancy {
 }
 #li_left {
     margin-left: 19%;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
 }
 #li_left li {
     padding: 0 10px;
@@ -490,12 +496,12 @@ p.fancy {
 .travel_nav ul li {
     display: inline;
 }
-#travel_main{
+#travel_main {
     position: relative;
 }
 #travel_main_img {
-    object-fit:cover;
-    width:100%;
+    object-fit: cover;
+    width: 100%;
 }
 #head_middle {
     width: 35%;
@@ -505,17 +511,17 @@ p.fancy {
     text-align: center;
     bottom: 50%;
     left: 35%;
-    color:white;
+    color: white;
     line-height: 10px;
 }
 #head_middle h1 {
     font-size: 70px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
     word-spacing: 10px;
 }
 #head_middle span {
     font-size: 18px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
 }
 
 /*Anchor tags*/
@@ -555,12 +561,77 @@ a:visited {
 }
 .about_img {
     width: 30%;
-    float:left;
+    float: left;
     margin-top: 150px;
     margin-left: 50px;
     margin-bottom: 100px;
 }
 .about_img img {
     width: 80%;
-    object-fit:cover;
+    object-fit: cover;
+}
+
+/* Footer */
+#footer {
+    height: 30vh;
+    background-color: #ffffff;
+    /* line-height: 20vh; */
+    font-family: sans-serif;
+}
+
+#footer .logo {
+    width: 50%;
+    float: left;
+    /* line-height: 30vh; */
+    margin: 0 !important;
+    height: 100%;
+    display: flex;
+}
+
+#footer .logo img {
+    max-height: 20vh;
+    float: right;
+    margin: auto 0 auto 70%;
+}
+
+#footer .links {
+    border-top: 0;
+    border-bottom: 0;
+    padding: 0;
+    width: 50%;
+    float: left;
+    height: 100%;
+    display: flex;
+}
+
+#footer .links ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    margin: auto 60% auto 0;
+}
+
+#footer .links ul li {
+    float: left;
+}
+
+#footer .links ul li a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 1s ease all;
+    border-radius: 30px;
+    color: #696969;
+}
+
+#footer .links ul li a:hover {
+    background-color: #696969;
+    color: white;
+}
+
+#footer .separator {
+    display: none;
 }
