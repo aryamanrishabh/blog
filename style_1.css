@@ -59,6 +59,7 @@ body {
 }
 #insta img {
   width: 20%;
+  height: 196px;
 }
 .container-a {
   position: relative;
@@ -196,39 +197,17 @@ button {
 }
 
 /*Fashion.html*/
-#left_fashion {
-  width: 25%;
-  float: left;
-  text-align: right;
-  margin-top: 5.2vh; /*5.4*/
-  margin-bottom: 0vh;
-}
-#left_fashion span {
-  font-size: 1vh;
-  padding: 0 1vw;
-  cursor: pointer;
-}
+
 #center_fashion {
   width: 50%;
   font-size: 50px;
-  float: left;
   text-align: center;
+  margin: 0 auto;
 }
 #center_fashion h1 {
   font-family: "Poiret One", cursive;
   font-weight: 800;
   letter-spacing: 7px;
-  cursor: pointer;
-}
-#right_fashion {
-  width: 25%;
-  float: left;
-  text-align: left;
-  margin-top: 5.2vh; /*5.4vh*/
-  margin-bottom: 2vh;
-}
-#right_fashion i {
-  padding: 0 1vw;
   cursor: pointer;
 }
 #all_posts {

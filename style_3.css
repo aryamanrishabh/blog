@@ -137,6 +137,7 @@ h2 {
 }
 #insta img {
   width: 20%;
+  height: 300px;
 }
 
 #about_me {
@@ -160,23 +161,11 @@ h2 {
 }
 
 /*fashion.html*/
-#left_fashion {
-  width: 25%;
-  float: left;
-  text-align: right;
-  margin-top: 210px;
-  margin-bottom: 130px;
-}
-#left_fashion span {
-  font-size: 14px;
-  padding: 0 10px;
-  cursor: pointer;
-  font-family: "Lato", sans-serif;
-}
+
 #center_fashion {
   width: 50%;
-  font-size: 70px;
-  float: left;
+  font-size: 75px;
+  margin: 0 auto;
   text-align: center;
 }
 #center_fashion h1 {
@@ -184,17 +173,7 @@ h2 {
   font-weight: 1000;
   letter-spacing: 10px;
   cursor: pointer;
-}
-#right_fashion {
-  width: 25%;
-  float: left;
-  text-align: left;
-  margin-top: 210px;
-  margin-bottom: 130px;
-}
-#right_fashion i {
-  padding: 0 10px;
-  cursor: pointer;
+  margin-bottom: 50px;
 }
 #all_posts {
   text-align: left;
@@ -209,8 +188,7 @@ h2 {
 }
 .article {
   width: 66%;
-  display: block;
-  margin: 8vh auto;
+  margin: 40px auto;
   text-align: left;
   box-shadow: 0 4px 8px 0 rgba(104, 104, 104, 0.2),
     0 6px 20px 0 rgba(153, 153, 153, 0.19);
@@ -219,7 +197,7 @@ h2 {
 .article_text {
   display: block;
   width: 80%;
-  margin: 8vh auto;
+  margin: 70px auto;
   text-align: left;
 }
 .article pre {
