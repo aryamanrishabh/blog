@@ -20,12 +20,13 @@ body {
     margin-left: 28%;
     margin-right: 20%;
     font-size: 90px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 #socials {
     display: block;
     width: 100%;
-    background-color: #2573DA;
+    background-color: #2573da;
     overflow: hidden;
     margin-top: 5vh;
     height: 5vh;
@@ -54,11 +55,10 @@ body {
     display: none;
 }
 #insta {
-    display: block;
+    font-size: 0;
 }
 #insta img {
     width: 20%;
-    float: left;
 }
 .container-a {
     position: relative;
@@ -92,13 +92,14 @@ span.head_text {
 * {
     line-height: 3vh;
 }
-.left, .right {
+.left,
+.right {
     width: 46%;
     float: left;
     height: 23vh;
     margin: 2vh 2% 2% 2%;
 }
-.center  {
+.center {
     width: 96%;
     margin: 2% 2% 2% 2%;
     height: 20vh;
@@ -135,7 +136,7 @@ button {
     border-radius: 50%;
     height: 10vh;
     margin-top: 4vh;
-    margin-right:3vw;
+    margin-right: 3vw;
     margin-left: 2%;
 }
 .p_text {
@@ -143,7 +144,8 @@ button {
     text-align: left;
     margin-right: 10vw;
 }
-.p_text span, .n_text span {
+.p_text span,
+.n_text span {
     color: gray;
     font-size: 13px;
 }
@@ -166,7 +168,7 @@ button {
 #about {
     display: block;
     border-left: 5px solid rgb(212, 134, 32);
-    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin: 5vh 2%;
 }
 
@@ -178,7 +180,7 @@ button {
 #about i {
     margin-bottom: 5vh;
 }
-#about p{
+#about p {
     margin: 0 10vw 1.5vh 10vw;
 }
 .more h3 {
@@ -196,9 +198,9 @@ button {
 /*Fashion.html*/
 #left_fashion {
     width: 25%;
-    float:left;
+    float: left;
     text-align: right;
-    margin-top: 4.5vh;/*5.4*/
+    margin-top: 4.5vh; /*5.4*/
     margin-bottom: 2vh;
 }
 #left_fashion span {
@@ -220,7 +222,7 @@ button {
     width: 25%;
     float: left;
     text-align: left;
-    margin-top: 4.5vh;/*5.4vh*/
+    margin-top: 4.5vh; /*5.4vh*/
     margin-bottom: 2vh;
 }
 #right_fashion i {
@@ -243,7 +245,8 @@ button {
     display: block;
     margin: 2vh auto;
     text-align: left;
-    box-shadow:0 4px 8px 0 rgba(104, 104, 104, 0.2), 0 6px 20px 0 rgba(153, 153, 153, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(104, 104, 104, 0.2),
+        0 6px 20px 0 rgba(153, 153, 153, 0.19);
     padding: 2vh 0;
 }
 .article_text {
@@ -255,17 +258,20 @@ button {
 #article_img {
     width: 100%;
     margin: 2vh 0;
-} 
+}
 .article pre {
     font-size: 1.2vh;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
 }
 #bot {
     font-size: 1vh;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
 }
 .article h1 {
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
     font-weight: normal;
 }
 
@@ -294,7 +300,8 @@ button {
     margin-block-end: 0px;
 }
 #first_txt h3 {
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
     font-weight: normal;
     font-size: 20px;
 }
@@ -303,7 +310,7 @@ button {
     position: absolute;
     bottom: 0px;
     left: 15%;
-    background-color: #2F2E2E;
+    background-color: #2f2e2e;
     line-height: 0;
     padding-left: 20px;
     padding-right: 20px;
@@ -311,7 +318,7 @@ button {
 }
 #second_txt h3 {
     color: white;
-    font-family: 'Playfair Display', serif;
+    font-family: "Playfair Display", serif;
     font-weight: normal;
 }
 .article_food {
@@ -330,17 +337,17 @@ button {
     line-height: 0;
     display: inline-block;
     position: absolute;
-    top:-20px;
+    top: -20px;
     left: -20px;
     padding-left: 30px;
     padding-right: 30px;
-    background-color: #2F2E2E;
+    background-color: #2f2e2e;
 }
 #article_food_head pre {
     font-size: 20px;
-    font-family: 'Playfair Display', serif;
+    font-family: "Playfair Display", serif;
     font-weight: normal;
-    color:white;
+    color: white;
 }
 .food_text {
     display: block;
@@ -357,11 +364,11 @@ button {
     width: 30px;
     border-radius: 50%;
     margin-top: 25px;
-    cursor:default;
+    cursor: default;
 }
 .food_text span {
     font: 12px sans-serif;
-    color: #2F2E2E;
+    color: #2f2e2e;
     margin-left: 10px;
     position: relative;
     top: -10px;
@@ -369,7 +376,7 @@ button {
 #food_text_h1 {
     text-align: left;
     font-size: 30px;
-    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-family: "Yanone Kaffeesatz", sans-serif;
     font-weight: 500;
 }
 .food_text h1 {
@@ -395,11 +402,12 @@ span.abstract {
 }
 /*Individual articles*/
 .back_color {
-    background-color: #ebebeb;          /*background color specific*/
+    background-color: #ebebeb; /*background color specific*/
 }
 #span_top {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 14px;  
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+        Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 14px;
     margin-left: 5vw;
     margin-top: 2vh;
     display: none;
@@ -418,7 +426,7 @@ span.abstract {
     top: 0.5vh;
 }
 .article_inner h3 {
-    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-family: "Yanone Kaffeesatz", sans-serif;
     font-size: 50px;
     font-weight: 550;
     margin-top: 3vh;
@@ -429,15 +437,15 @@ span.abstract {
 }
 #span_bot {
     font-size: 18px;
-    font-family: 'Noto Sans', sans-serif;
+    font-family: "Noto Sans", sans-serif;
 }
 .article_inner p {
     font-size: 17px;
-    font-family: 'Noto Sans', sans-serif;
+    font-family: "Noto Sans", sans-serif;
 }
 p.fancy {
     font-size: 24px;
-    font-family: 'Noto Sans', sans-serif;
+    font-family: "Noto Sans", sans-serif;
     font-style: italic;
     border-left: 2px solid rgb(83, 1, 83);
     padding: 1.5vw;
@@ -476,7 +484,7 @@ img.article_profile {
 }
 #li_left {
     margin-left: 5%;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
 }
 #li_left li {
     padding: 0 10px;
@@ -502,12 +510,12 @@ img.article_profile {
 .travel_nav ul li {
     display: inline;
 }
-#travel_main{
+#travel_main {
     position: relative;
 }
 #travel_main_img {
-    object-fit:cover;
-    width:100%;
+    object-fit: cover;
+    width: 100%;
 }
 #head_middle {
     width: 40%;
@@ -517,17 +525,17 @@ img.article_profile {
     text-align: center;
     bottom: 30%;
     left: 40%;
-    color:white;
+    color: white;
     line-height: 10px;
 }
 #head_middle h1 {
     font-size: 50px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
     line-height: 0;
 }
 #head_middle span {
     font-size: 18px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
 }
 /*about.html*/
 .about_text {
@@ -567,4 +575,69 @@ a:visited {
 
 #back_no_color {
     background-color: white;
+}
+
+/* Footer */
+#footer {
+    height: 30vh;
+    background-color: #ffffff;
+    /* line-height: 20vh; */
+    font-family: sans-serif;
+}
+
+#footer .logo {
+    width: 100%;
+    max-height: 15vh;
+    display: flex;
+}
+
+#footer .logo img {
+    max-height: 15vh;
+    margin: auto;
+}
+
+#footer .links {
+    border-top: 0;
+    border-bottom: 0;
+    padding: 0;
+    width: 100%;
+    /* float: left; */
+    max-height: 15vh;
+    display: flex;
+}
+
+#footer .links ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    margin: auto;
+    font-size: 1.5rem;
+}
+
+#footer .links ul li {
+    float: left;
+}
+
+#footer .links ul li a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 1s ease all;
+    border-radius: 10px;
+}
+
+#footer .links ul li a:hover {
+    background-color: #2f2e2e;
+    color: white;
+}
+
+#footer .separator {
+    margin: auto;
+    width: 70%;
+    height: 10px;
+    background-color: rgb(95, 94, 94);
+    margin-top: 2vh;
 }
