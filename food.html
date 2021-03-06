@@ -10,6 +10,31 @@
         <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300;400&display=swap" rel="stylesheet">
     </head>
     <body class="back_color">
+        <div class="header-container">
+            <div id="mySidenav" class="sidenav">
+                <div class="link-container">
+                    <a
+                        href="javascript:void(0)"
+                        class="closebtn"
+                        onclick="closeNav()"
+                        >&times;</a
+                    >
+                    <a href="#">Home</a>
+                    <a href="#">About</a>
+                    <a href="#">Contact</a>
+                </div>
+            </div>
+            <div class="header">
+                <a href="./index.html"
+                    ><div class="logo">
+                        <img src="./images/heading-mob.png" /></div
+                ></a>
+
+                <div class="navigation-menu">
+                    <i class="fas fa-bars" onclick="openNav()"></i>
+                </div>
+            </div>
+        </div>
         <a href="food.html"><div class="overlay" class="not_mobile">
             <pre><span id="the">THE</span><span class="food_feed">food</pre> <span class="food_feed">feed</span>
         </div></a>
@@ -81,5 +106,8 @@
                 </ul>
             </div>
         </div>
+
+        <!-- JavaScript -->
+        <script src="./js/custom.js"></script>
     </body>
 </html>

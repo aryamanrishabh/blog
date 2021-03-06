@@ -615,16 +615,32 @@ a:visited {
 }
 
 /* Header */
+.header-container {
+    padding: 20px 100px;
+    height: 50px;
+}
 
 .header {
-    padding: 15px;
+    height: 100%;
 }
 
-.header .navigation-link {
-    font-size: 20px;
+.header .logo {
+    float: left;
+    text-align: center;
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
 }
 
-.header .navigation-link:hover {
+.header .logo img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.navigation-menu {
+    float: right;
+    line-height: 50px;
+    font-size: 25px;
     cursor: pointer;
 }
 
@@ -632,20 +648,24 @@ a:visited {
     height: 100%;
     width: 0;
     position: fixed;
-    z-index: 1;
+    z-index: 2;
     top: 0;
-    left: 0;
+    right: 0;
     background-color: #111;
     overflow-x: hidden;
-    transition: 0.5s;
+    transition: 0.75s ease;
     padding-top: 60px;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0;
 }
 
 .sidenav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 30px;
     color: #818181;
     display: block;
     transition: 0.3s;
@@ -657,17 +677,8 @@ a:visited {
 
 .sidenav .closebtn {
     position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
+    top: 10px;
+    right: 80px;
+    font-size: 50px;
     margin-left: 50px;
-}
-
-@media screen and (max-height: 450px) {
-    .sidenav {
-        padding-top: 15px;
-    }
-    .sidenav a {
-        font-size: 18px;
-    }
 }
