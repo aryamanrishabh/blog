@@ -33,6 +33,31 @@
         />
     </head>
     <body class="back_color" id="back_no_color">
+        <div class="header-container">
+            <div id="mySidenav" class="sidenav">
+                <div class="link-container">
+                    <a
+                        href="javascript:void(0)"
+                        class="closebtn"
+                        onclick="closeNav()"
+                        >&times;</a
+                    >
+                    <a href="#">Home</a>
+                    <a href="#">About</a>
+                    <a href="#">Contact</a>
+                </div>
+            </div>
+            <div class="header">
+                <a href="./index.html"
+                    ><div class="logo">
+                        <img src="./images/heading-mob.png" /></div
+                ></a>
+
+                <div class="navigation-menu">
+                    <i class="fas fa-bars" onclick="openNav()"></i>
+                </div>
+            </div>
+        </div>
         <div class="article_outer">
             <span id="span_top"><a href="fashion.html">All Posts</a></span>
             <div class="article_inner">
@@ -122,5 +147,8 @@
                 </ul>
             </div>
         </div>
+
+        <!-- JavaScript -->
+        <script src="./js/custom.js"></script>
     </body>
 </html>
