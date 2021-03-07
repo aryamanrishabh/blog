@@ -1,14 +1,12 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="utf-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
-        <meta
-            name="viewport"
-            content="width=device-width, initial-scale=1, shrink-to-fit=no"
-        />
-        <meta name="description" content="" />
         <title>A Food & Fashion blog</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
+            rel="stylesheet"
+        />
         <script
             src="https://kit.fontawesome.com/eafd2ac13a.js"
             crossorigin="anonymous"
@@ -30,52 +28,67 @@
             href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
             rel="stylesheet"
         />
-        <link rel="stylesheet" href="./css/animate.min.css" />
     </head>
     <body>
-        <div class="landing">
-            <div class="header">
-                <div class="navbar">
-                    <span onclick="openNav()" class="navigation-link"
-                        >&#9776;</span
-                    >
-                </div>
-                <div class="logo"></div>
+        <div class="landing-container">
+            <div class="header-container">
                 <div id="mySidenav" class="sidenav">
-                    <a
-                        href="javascript:void(0)"
-                        class="closebtn"
-                        onclick="closeNav()"
-                        >&times;</a
-                    >
-                    <a href="#">About</a>
-                    <a href="#">Services</a>
-                    <a href="#">Clients</a>
-                    <a href="#">Contact</a>
+                    <div class="link-container">
+                        <a
+                            href="javascript:void(0)"
+                            class="closebtn"
+                            onclick="closeNav()"
+                            >&times;</a
+                        >
+                        <a href="#">Home</a>
+                        <a href="#">About</a>
+                        <a href="#">Contact</a>
+                    </div>
+                </div>
+                <div class="header">
+                    <a href="./index.html"
+                        ><div class="logo">
+                            <img src="./images/heading-mob.png" /></div
+                    ></a>
+
+                    <div class="navigation-menu">
+                        <i class="fas fa-bars" onclick="openNav()"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="landing">
+                <a href="index.html">
+                    <div class="category-travel">
+                        <h1>Travel</h1>
+                    </div>
+                </a>
+                <a href="fashion.html">
+                    <div class="category-fashion">
+                        <h1>Fashion</h1>
+                    </div>
+                </a>
+                <a href="food.html">
+                    <div class="category-food">
+                        <h1>Food</h1>
+                    </div>
+                </a>
+            </div>
+
+            <div id="footer">
+                <div class="logo"><img src="./images/logo-footer.png" /></div>
+                <div class="separator"></div>
+                <div class="links">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
                 </div>
             </div>
         </div>
 
         <!-- JavaScript -->
-
-        <script
-            src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-            crossorigin="anonymous"
-        ></script>
-        <script
-            src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-            crossorigin="anonymous"
-        ></script>
-        <script
-            src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-            crossorigin="anonymous"
-        ></script>
-        <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
-        <script src="./js/wow.min.js"></script>
-
         <script src="./js/custom.js"></script>
     </body>
 </html>
