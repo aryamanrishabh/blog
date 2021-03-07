@@ -391,6 +391,7 @@ span.abstract {
     font-size: 14px;
     margin-left: 5vw;
     margin-top: 2vh;
+    font-weight: 500;
     display: none;
 }
 .article_inner {
@@ -763,4 +764,8 @@ a:visited {
     text-transform: uppercase;
     color: white;
     font-size: 3.2rem;
+}
+
+#not_mobile {
+    display: none;
 }
