@@ -56,6 +56,7 @@ body {
 }
 #insta {
     font-size: 0;
+    line-height: 0;
 }
 #insta img {
     width: 20%;
@@ -563,8 +564,8 @@ a:visited {
 #footer {
     height: 30vh;
     background-color: #ffffff;
-    /* line-height: 20vh; */
     font-family: sans-serif;
+    padding-top: 3vh;
 }
 
 #footer .logo {
