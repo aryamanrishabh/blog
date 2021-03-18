@@ -511,6 +511,14 @@ a:visited {
   text-decoration: none;
   color: black;
 }
+.a_social:link {
+  text-decoration: none;
+  color: white;
+}
+.a_social:visited {
+  text-decoration: none;
+  color: white;
+}
 .profile_pic {
   cursor: pointer;
 }
@@ -761,5 +769,5 @@ a:visited {
 }
 
 #not_pc {
-    display: none;
+  display: none;
 }
