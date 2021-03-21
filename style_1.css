@@ -127,10 +127,13 @@ button {
 }
 .links {
   display: block;
-  margin: 3vh auto;
+  margin: 0 auto;
   text-align: center;
+  line-height: 1.5;
+  font-size: 25px;
 }
 .links i {
+  display: inline-block;
   margin: 0 2vw;
 }
 .prev img {
@@ -242,7 +245,7 @@ button {
   margin: 2vh 0;
 }
 .article pre {
-  font-size: 1.2vh;
+  font-size: 1vh;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 #bot {
