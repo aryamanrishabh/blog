@@ -468,6 +468,14 @@ span.abstract {
     font-size: 18px;
     font-family: "Noto Sans", sans-serif;
 }
+@media (orientation: landscape) {
+    #span_bot {
+        line-height: 1.5;
+    }
+    div.article_inner p {
+        line-height: 1.5;
+    }
+}
 .article_inner p {
     font-size: 17px;
     font-family: "Noto Sans", sans-serif;
@@ -484,9 +492,9 @@ p.fancy {
     border-top: 1px solid #bdbdbd;
     border-bottom: 1px solid #bdbdbd;
     padding-top: 1vh;
-    padding-bottom: 4vh;
-    margin-top: 4vh;
-    margin-bottom: 2vh;
+    padding-bottom: 8%;
+    margin-top: 5%;
+    margin-bottom: 1%;
 }
 .article_links i {
     margin-right: 10vw;
@@ -494,6 +502,24 @@ p.fancy {
     position: relative;
     top: 0.5vh;
     font-size: 18px;
+}
+@media (orientation: landscape) {
+    .article_links {
+        display: block;
+        border-top: 1px solid #bdbdbd;
+        border-bottom: 1px solid #bdbdbd;
+        padding-top: 1%;
+        padding-bottom: 4%;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+    .article_links i {
+        margin-right: 10vw;
+        float: left;
+        position: relative;
+        top: 0.5vh;
+        font-size: 18px;
+    }
 }
 img.article_profile {
     margin-top: 1vh;
